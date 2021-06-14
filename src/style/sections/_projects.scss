@@ -49,8 +49,12 @@
       }
     }
 
+    &__work-desc {
+      font-size: 14px;
+    }
+
     &__image {
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
 
       @include respond(tab-land) {
